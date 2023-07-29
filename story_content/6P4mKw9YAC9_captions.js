@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%203.77.30587.0%0D%0A%0D%0A00:00:00.150%20--%3E%2000:00:04.049%0D%0A5.%20Which%20of%20the%20following%20is%20the%20most%20popular%20social%20media%20site?%20%0D%0A%0D%0A"}')

@@ -1,0 +1,2817 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns11111100111" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4893B8">
+  <layouts>
+    <layout name="npnxnanbsnfns11111100111" font="Lato" controllayout="npnxnanbsnfns11111100111" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
+    <layout name="pxabnsnfns11111100111" font="Lato" controllayout="pxabnsnfns11111100111" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
+    <layout name="npxnabnsnfns11111100111" font="Lato" controllayout="npxnabnsnfns11111100111" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
+    <layout name="npnxnanbnsnfns11111100111" font="Lato" controllayout="npnxnanbnsnfns11111100111" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
+    <layout name="pxabnsnfns11111100110" font="Lato" controllayout="pxabnsnfns11111100110" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="FSocial Media for the Medical Professional" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="none" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Lato" />
+            </options>
+          </option>
+          <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="true" />
+          <option name="playbackSpeedControl" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+      <optiongroup name="courseOptions">
+        <options>
+          <option name="thumbnailEnabled" value="true" />
+          <option name="thumbnailFillFrame" value="true" />
+          <option name="thumbnailDisplayName" value="Slide: Medical Social Media" />
+          <option name="thumbnailUrl" value="story_content/62eRHNBJnLG.png" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns11111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns11111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns11111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111100110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns11111100111">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="focus_rect_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x002060" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x214400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428E00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E5D00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C7C00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="80" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="80" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x373737" alpha="77" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="1" stop="89" />
+                <color rgb="0x000000" alpha="6" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4893B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4893B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x919191" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4893B8" alpha="30" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns11111100111">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_visited">visited</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="background_audio">Background audio</string>
+      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
+      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="acc_playback_speed">playback speed</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="background_audio_shortcut">Toggle background audio</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="streaming_video_local_playback_learn_more">Learn More</string>
+      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="transcript_auto_scroll">Autoscroll</string>
+      <string id="acc_window_close">Close</string>
+      <string id="acc_video_transcript_list">Transcipt</string>
+      <string id="acc_window_move">Move window</string>
+      <string id="acc_modern_video_transcript">Open</string>
+      <string id="acc_window_resize">Resize window</string>
+      <string id="video_transcript_resume_autoscroll">Resume autoscroll</string>
+      <string id="video_transcript_select_track">Select track</string>
+      <string id="transcript_show_timestamp">Show timestamps</string>
+      <string id="video_transcript_title">Transcripts</string>
+      <string id="acc_window_options">Options</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Lato">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Calibri">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6qRp0oFSt3f" displaytext="Medical Social Media" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6qRp0oFSt3f.5aBc0SkvK8e" displaytext="Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.6qRp0oFSt3f.6mdqtSxGGU7" displaytext="Definition" expand="false" type="slide" />
+            <slidelink slideid="_player.6qRp0oFSt3f.6mkNKRWFP42" displaytext="Future Goals" expand="false" type="slide" />
+            <slidelink slideid="_player.6qRp0oFSt3f.5wE5hrbtKND" displaytext="Pitfalls" expand="false" type="slide" />
+            <slidelink slideid="_player.6qRp0oFSt3f.6JLrKGxwh4s" displaytext="Negative" expand="false" type="slide" />
+            <slidelink slideid="_player.6qRp0oFSt3f.5Uo1QShZzhO" displaytext="Current Knowledge" expand="false" type="slide" />
+            <slidelink slideid="_player.6qRp0oFSt3f.6IHcCcArkmK" displaytext="Objectives:" expand="false" type="slide" />
+            <slidelink slideid="_player.6CSyl5OSEbV.6Zdo5g0SE0e" displaytext="Triggering" expand="false" type="slide" />
+            <slidelink slideid="_player.6CSyl5OSEbV.6NaZLdGpt9g" displaytext="The Big Idea:" expand="false" type="slide" />
+            <slidelink slideid="_player.6CSyl5OSEbV.61BFxDezUBB" displaytext="What would Patients Think" expand="false" type="slide" />
+            <slidelink slideid="_player.6CSyl5OSEbV.6C9Cu2Y4zZF" displaytext="Think" expand="false" type="slide" />
+            <slidelink slideid="_player.6CSyl5OSEbV.6Kb7yPelDw0" displaytext="Big Topic" expand="false" type="slide" />
+            <slidelink slideid="_player.6CSyl5OSEbV.5VI91ztZYVM" displaytext="Sasha and Frank" expand="false" type="slide" />
+            <slidelink slideid="_player.6CSyl5OSEbV.6h3bi1sJ2Cu" displaytext="Sasha says:" expand="false" type="slide" />
+            <slidelink slideid="_player.6CSyl5OSEbV.6BwUaZFrig3" displaytext="Sasha asks:" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.6ZiPrEir86I" displaytext="Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.6dcHFWi1byX" displaytext="Exploring" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.5oQvdFmA0o7" displaytext="Social Media" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.6MglUFZyUy0" displaytext="Electronic Information" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.6SxFRCZyvBq" displaytext="Positive interactions" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.6PVixy2HWXM" displaytext="Danger" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.6hG90gixLPl" displaytext="Personal" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.5fwy3jRp9DM" displaytext="Question" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.6NlfuW4PXNo" displaytext="Answer" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.5Z4oCSrjcao" displaytext="Comprehensive social NEtworking." expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.66XItovHL5K" displaytext="College Counselors" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.60k18knmgwz" displaytext="Doctor-Patient Relationship" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.65bfvShXPDX" displaytext="Influences" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.6dlKj3ddxw0" displaytext="Professional Conduct" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.6SD5LRnllmh" displaytext="Bioethics" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.6ra3X3RFA6x" displaytext="Personal Information" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.6qEAqGV42fY" displaytext="Humanize" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.5nFi8GvIPQU" displaytext="Best Sites" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.6Pba645RUdq" displaytext="Answer" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.6ByWBMIK3hQ" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5aZNmQgKSRI.6X58kqchw6O" displaytext="Professional Social Media" expand="false" type="slide" />
+            <slidelink slideid="_player.5aZNmQgKSRI.6Z3GYn5OKrE" displaytext="Platforms" expand="false" type="slide" />
+            <slidelink slideid="_player.5aZNmQgKSRI.5xJLKG5Zjji" displaytext="Facebook" expand="false" type="slide" />
+            <slidelink slideid="_player.5aZNmQgKSRI.6V6f8xTdLmP" displaytext="Instagram" expand="false" type="slide" />
+            <slidelink slideid="_player.5aZNmQgKSRI.6bU2PnijWYv" displaytext="WhatsApp" expand="false" type="slide" />
+            <slidelink slideid="_player.5aZNmQgKSRI.5aMTPqg4csx" displaytext="Indeed" expand="false" type="slide" />
+            <slidelink slideid="_player.5aZNmQgKSRI.5bbw2PXqhdk" displaytext="Linkedin" expand="false" type="slide" />
+            <slidelink slideid="_player.5aZNmQgKSRI.5fdNoz4BlcS" displaytext="Twitter" expand="false" type="slide" />
+            <slidelink slideid="_player.5aZNmQgKSRI.6E1dbz4FHUn" displaytext="Tiktok" expand="false" type="slide" />
+            <slidelink slideid="_player.5aZNmQgKSRI.5VqBgigSkRk" displaytext=" Sasha wonders:" expand="false" type="slide" />
+            <slidelink slideid="_player.5aZNmQgKSRI.5g5iIOge69w" displaytext=" Sasha wonders:" expand="false" type="slide" />
+            <slidelink slideid="_player.5ZNvQZDdMkg.66aHWoG6EIZ" displaytext="Integration" expand="false" type="slide" />
+            <slidelink slideid="_player.5ZNvQZDdMkg.6or7ruOloLg" displaytext="Military" expand="false" type="slide" />
+            <slidelink slideid="_player.5ZNvQZDdMkg.5Wa9jwRZmdi" displaytext="Posting Social Media" expand="false" type="slide" />
+            <slidelink slideid="_player.5ZNvQZDdMkg.6Zb1p2yfa6Z" displaytext="Screenshots explained" expand="false" type="slide" />
+            <slidelink slideid="_player.5ZNvQZDdMkg.5Y2nUNCBNEg" displaytext="Post Categories" expand="false" type="slide" />
+            <slidelink slideid="_player.5ZNvQZDdMkg.5kfk5msbHnN" displaytext="Examples" expand="false" type="slide" />
+            <slidelink slideid="_player.5ZNvQZDdMkg.62ayTtYxV6Q" displaytext="How much time" expand="false" type="slide" />
+            <slidelink slideid="_player.5ZNvQZDdMkg.5jPLJ8c8ot3" displaytext="Mr. Chin" expand="false" type="slide" />
+            <slidelink slideid="_player.5ZNvQZDdMkg.5jWIbPibHOr" displaytext="Answer" expand="false" type="slide" />
+            <slidelink slideid="_player.5ZNvQZDdMkg.5XdNSCBcT1X" displaytext="Great  Job, Lets Continue. " expand="false" type="slide" />
+            <slidelink slideid="_player.5d83GyhivqV.5yY1tbF1l8F" displaytext="Resolution" expand="false" type="slide" />
+            <slidelink slideid="_player.5d83GyhivqV.5WrVEt5gXDN" displaytext="Quiz Explanation" expand="false" type="slide" />
+            <slidelink slideid="_player.5Y4Cq25YUWh.6U8ji0STybv" displaytext="References" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.6YYui4c4T6g" displaytext="Do you have social media posts that you would consider inappropriate?" expand="false" type="slide" />
+            <slidelink slideid="_player.6qRp0oFSt3f.6UfPZsppI5m" displaytext="Medical Social Media" expand="false" type="slide" />
+            <slidelink slideid="_player.5Y4Cq25YUWh.5tEAwKEJ7M1" displaytext="Survey Question 3. What are your thoughts about your abilities on social media to get a job related to this information? " expand="false" type="slide" />
+            <slidelink slideid="_player.5Y4Cq25YUWh.6jT69ejhJCd" displaytext="Survey Question 1. What are your thoughts about social media after taking this educational session. " expand="false" type="slide" />
+            <slidelink slideid="_player.5Y4Cq25YUWh.6TgcSjeeoi0" displaytext="Survey Question 2. What are your thoughts about your educational learning doing this educational event. " expand="false" type="slide" />
+            <slidelink slideid="_player.5d83GyhivqV.6gFEMwdvlZk" displaytext="3. I did a screen-shot of an opinion of an interest area." expand="false" type="slide" />
+            <slidelink slideid="_player.5d83GyhivqV.66No6Q326aN" displaytext="2. I did a screen-shot of a current topic opinion. " expand="false" type="slide" />
+            <slidelink slideid="_player.5d83GyhivqV.6TZL7Mgwqki" displaytext="1. I did a screen-shot of a Health tip. " expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.6ftZkVDOxlq" displaytext="Question" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.68PYNDBhA8Z" displaytext="Nine options" expand="false" type="slide" />
+            <slidelink slideid="_player.5d83GyhivqV.5aZJTC96cUs" displaytext="Question" expand="false" type="slide" />
+            <slidelink slideid="_player.5d83GyhivqV.6BlwPIjDbh1" displaytext="Question" expand="false" type="slide" />
+            <slidelink slideid="_player.5d83GyhivqV.6jYpjdRwxXR" displaytext="The END" expand="false" type="slide" />
+            <slidelink slideid="_player.5d83GyhivqV.6eInizR8ek2" displaytext="Question" expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.5Y3lceMBSDT" displaytext="Continue this course. " expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.5pRzs1Ns72I" displaytext="Yes, then what is your plan to fix this problem? " expand="false" type="slide" />
+            <slidelink slideid="_player.69O6Hdbw3GE.6HBwRM3oS0U" displaytext="Question" expand="false" type="slide" />
+            <slidelink slideid="_player.5d83GyhivqV.6rPQEwDMEee" displaytext="Question" expand="false" type="slide" />
+            <slidelink slideid="_player.5d83GyhivqV.5n19viIL2Sq" displaytext="Question 7" expand="false" type="slide" />
+            <slidelink slideid="_player.5d83GyhivqV.5rMCGsXhk22" displaytext="Question 5" expand="false" type="slide" />
+            <slidelink slideid="_player.5d83GyhivqV.5ahy4uSHw4i" displaytext="Question 4" expand="false" type="slide" />
+            <slidelink slideid="_player.5d83GyhivqV.6n9xMAvur4f" displaytext="Email" expand="false" type="slide" />
+            <slidelink slideid="_player.5d83GyhivqV.5dLikR5vQKk" displaytext="Name" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="" displaytext="Trigger" expand="true" type="slide" />
+        <slidelink slideid="" displaytext="Exploration" expand="true" type="slide" />
+        <slidelink slideid="" displaytext="Social Media Sites" expand="true" type="slide" />
+        <slidelink slideid="" displaytext="Integration" expand="true" type="slide" />
+        <slidelink slideid="" displaytext="Resolution" expand="true" type="slide" />
+        <slidelink slideid="" displaytext="Evaluation" expand="true" type="slide" />
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6qRp0oFSt3f.6UfPZsppI5m" slidebank="false" type="slide">medical social media marilyn kindig stahl, d.o. </slidetext>
+      <slidetext slideid="6qRp0oFSt3f.5aBc0SkvK8e" slidebank="false" type="slide"> introduction </slidetext>
+      <slidetext slideid="6qRp0oFSt3f.6mdqtSxGGU7" slidebank="false" type="slide">definition of social media technology that uses ideas and sharing of information and expression in communities.  mélanie terrasse, moti gorin, and dominic sisti, “social media, e-health, and medical ethics,” hastings center report 49, no. 1 (2019): 24-33. doi: 10.1002/hast.975</slidetext>
+      <slidetext slideid="6qRp0oFSt3f.6mkNKRWFP42" slidebank="false" type="slide">future goals social media can make or break your application and future job.   mélanie terrasse, moti gorin, and dominic sisti, “social media, e-health, and medical ethics,” hastings center report 49, no. 1 (2019): 24-33. doi: 10.1002/hast.975</slidetext>
+      <slidetext slideid="6qRp0oFSt3f.5wE5hrbtKND" slidebank="false" type="slide">the pitfalls of social media social media can help your future career by showing you in a positive light to others, using your medical career.  mélanie terrasse, moti gorin, and dominic sisti, “social media, e-health, and medical ethics,” hastings center report 49, no. 1 (2019): 24-33. doi: 10.1002/hast.975</slidetext>
+      <slidetext slideid="6qRp0oFSt3f.6JLrKGxwh4s" slidebank="false" type="slide">negative posts social media can also hurt your career by showing negative images or posts you make. </slidetext>
+      <slidetext slideid="6qRp0oFSt3f.5Uo1QShZzhO" slidebank="false" type="slide">current knowledge question what do  you know about social media in relation to professionalism?  slide the bar below to state where you believe are in your medical social media knowledge.       0      1      2        3       4       5       6       7       8       9       10      this is sasha!</slidetext>
+      <slidetext slideid="6qRp0oFSt3f.6IHcCcArkmK" slidebank="false" type="slide">objectives: social media is important, integrate this knowledge personally, use this information in the future</slidetext>
+      <slidetext slideid="6CSyl5OSEbV.6Zdo5g0SE0e" slidebank="false" type="slide">  triggering </slidetext>
+      <slidetext slideid="6CSyl5OSEbV.6NaZLdGpt9g" slidebank="false" type="slide">the big idea: your online presence is important for your future. </slidetext>
+      <slidetext slideid="6CSyl5OSEbV.61BFxDezUBB" slidebank="false" type="slide">what would patients think? your online presence can make or break you.</slidetext>
+      <slidetext slideid="6CSyl5OSEbV.6C9Cu2Y4zZF" slidebank="false" type="slide">think: what about your future professional practice opportunities.</slidetext>
+      <slidetext slideid="6CSyl5OSEbV.6Kb7yPelDw0" slidebank="false" type="slide">hello! hello! hello! the big idea: next next next next next next the big idea: social media is a big topic and important you understand it for your life in medicine. </slidetext>
+      <slidetext slideid="6CSyl5OSEbV.5VI91ztZYVM" slidebank="false" type="slide">our helpers during the course: sasha will help through the course.   frank will help through the graded quiz. </slidetext>
+      <slidetext slideid="6CSyl5OSEbV.6h3bi1sJ2Cu" slidebank="false" type="slide">sasha asks: i wonder what is really on your social media that admissions committees and employers would not like? </slidetext>
+      <slidetext slideid="6CSyl5OSEbV.6BwUaZFrig3" slidebank="false" type="slide">next next next next next next let’s get started! sasha says: take a deep breath, close your door and silence your phone.</slidetext>
+      <slidetext slideid="69O6Hdbw3GE.6ZiPrEir86I" slidebank="false" type="slide">  exploration </slidetext>
+      <slidetext slideid="69O6Hdbw3GE.6YYui4c4T6g" slidebank="false" type="slide">before proceeding, please change those posts so you are ready for the next section and completion of this exercise.  completed completed completed completed completed completed thank you thank you for your response. continue with the course. continue continue continue continue continue continue  b. less than 2 b. less than 2 b. less than 2 b. less than 2 b. less than 2 b. less than 2 c. less than 5 c. less than 5 c. less than 5 c. less than 5 c. less than 5 c. less than 5 d. more than 6 d. more than 6 d. more than 6 d. more than 6 d. more than 6 d. more than 6 do you have social media posts that you would consider inappropriate? a. none a. none a. none a. none a. none a. none</slidetext>
+      <slidetext slideid="69O6Hdbw3GE.6dcHFWi1byX" slidebank="false" type="slide">  exploring your social media  </slidetext>
+      <slidetext slideid="69O6Hdbw3GE.68PYNDBhA8Z" slidebank="false" type="slide">showing responsibility on your social media sites will build a practice and have others see you as a professional. always professional do not show depression, anxiety or take out frustrations you may have on social media.   emotional content professional dress, appropriate posing and sharing professional posts is the correct online presence.  dressing online be trustworthy about your life and school assignments so others will have confidence in you for the future.  be honest if you post when on vacation, it would be easy for someone to break into your home. specific check-ins post information without your name, address, or birth-date, as thieves and predators are looking for your private information.  confidential information school and work computers must be kept off social media so computers systems aren’t disrupted.  encouraging content only positive speech and kind treatment of others should be shown on your social media page. positive comments only legal activities should appear on social media.  legal activities confidential information confidential information confidential information confidential information encouraging content encouraging content encouraging content encouraging content positive comments other comments positive comments positive comments specific  check-ins specific  check-ins specific  check-ins specific  check-ins legal  activities legal  activities legal  activities legal  activities always  professional always  professional always  professional always  professional emotional  content emotional  content emotional  content emotional  content dressing  online dressing  online dressing  online dressing  online be  honest be  honest be  honest be  honest exploring social media</slidetext>
+      <slidetext slideid="69O6Hdbw3GE.6HBwRM3oS0U" slidebank="false" type="slide"> yes yes yes yes yes yes no no no no no no sasha asks:  “did you have items in your social posts you now consider not appropriate for medical social media”?  enter enter enter enter enter enter</slidetext>
+      <slidetext slideid="69O6Hdbw3GE.5pRzs1Ns72I" slidebank="false" type="slide">yes, then what is your plan to fix this problem?  click to add text</slidetext>
+      <slidetext slideid="69O6Hdbw3GE.5Y3lceMBSDT" slidebank="false" type="slide">continue this course.  click to add text</slidetext>
+      <slidetext slideid="69O6Hdbw3GE.5oQvdFmA0o7" slidebank="false" type="slide">  exploring sides of social media  </slidetext>
+      <slidetext slideid="69O6Hdbw3GE.6MglUFZyUy0" slidebank="false" type="slide">health research  public health information  patient-doctor relationships electronic health records.  continue continue continue continue continue continue positive electronic information</slidetext>
+      <slidetext slideid="69O6Hdbw3GE.6ftZkVDOxlq" slidebank="false" type="slide">emphasize bioethics for technology</slidetext>
+      <slidetext slideid="69O6Hdbw3GE.6SxFRCZyvBq" slidebank="false" type="slide">positive interactions family and friend interaction can be positive online.</slidetext>
+      <slidetext slideid="69O6Hdbw3GE.6PVixy2HWXM" slidebank="false" type="slide">danger social media can also be dangerous, allowing criminals to target your personal information.</slidetext>
+      <slidetext slideid="69O6Hdbw3GE.6hG90gixLPl" slidebank="false" type="slide">personally positive contact with friends and family offline is important</slidetext>
+      <slidetext slideid="69O6Hdbw3GE.5fwy3jRp9DM" slidebank="false" type="slide">incorrect you did not select the correct response. the correct response is to not publish vacation pictures while you are not home . continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue sasha asks: which of the following correct answers are “positives” of online interactions, and you may click more than one? a. family history research  a. family history research  a. family history research  a. family history research  b.  public health information b.  public health information b.  public health information c. electronic health records  c. electronic health records  c. electronic health records   d. sharing your vacation photos   d. sharing your vacation photos   d. sharing your vacation photos  e. sharing pictures of family  e. sharing pictures of family  e. sharing pictures of family   submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="69O6Hdbw3GE.6NlfuW4PXNo" slidebank="false" type="slide"> sasha answers:  yes - a. family history	 yes - b. public health information yes - c. electronic health records yes with care of timing on when pictures are posted - d. sharing your vacation photos yes with care posting names - e.  sharing pictures of family </slidetext>
+      <slidetext slideid="69O6Hdbw3GE.5Z4oCSrjcao" slidebank="false" type="slide">comprehensive social networking a report that shows all social network accounts attached to your email. </slidetext>
+      <slidetext slideid="69O6Hdbw3GE.66XItovHL5K" slidebank="false" type="slide">college admission counselors more and more admission counselors check their applicant's social media sites. </slidetext>
+      <slidetext slideid="69O6Hdbw3GE.60k18knmgwz" slidebank="false" type="slide">doctor-patient relationship social media can affect the provider-patient relationship. </slidetext>
+      <slidetext slideid="69O6Hdbw3GE.65bfvShXPDX" slidebank="false" type="slide">influences are multiple e-health and online data is vast.</slidetext>
+      <slidetext slideid="69O6Hdbw3GE.6dlKj3ddxw0" slidebank="false" type="slide">professional conduct professionals who use social media and e-health platforms must follow professional conduct codes. </slidetext>
+      <slidetext slideid="69O6Hdbw3GE.6SD5LRnllmh" slidebank="false" type="slide">bioethics of social media online material and blogs published by patients can provide valuable information to practitioners.  </slidetext>
+      <slidetext slideid="69O6Hdbw3GE.6ra3X3RFA6x" slidebank="false" type="slide">personal information information a practitioner posts about their medical condition could influence patients. </slidetext>
+      <slidetext slideid="69O6Hdbw3GE.6qEAqGV42fY" slidebank="false" type="slide"> humanize yourself however, a practitioner’s post could humanize them in a patient’s viewpoint.  </slidetext>
+      <slidetext slideid="69O6Hdbw3GE.5nFi8GvIPQU" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue        sasha wonders: what social media sites might be the best for a practitioner to share health information?      indeed  facebook facebook facebook instagram instagram instagram whatsapp whatsapp whatsapp yes yes yes yes yes yes no no no no no no  linkedin linkedin linkedin twitter twitter twitter tictoc tictoc tictoc submit submit submit submit</slidetext>
+      <slidetext slideid="69O6Hdbw3GE.6Pba645RUdq" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  sasha answers: using facebook and instagram will help you the most in an american country for all ages, based on the usage among users.    indeed  facebook instagram whatsapp yes yes yes yes yes yes no no no no no no  linkedin twitter tictoc next next next next next next</slidetext>
+      <slidetext slideid="5aZNmQgKSRI.6X58kqchw6O" slidebank="false" type="slide"> next next next next next next  exploring social media platforms for professional medical use.   </slidetext>
+      <slidetext slideid="5aZNmQgKSRI.6Z3GYn5OKrE" slidebank="false" type="slide">social media platforms professional use of social media platforms</slidetext>
+      <slidetext slideid="5aZNmQgKSRI.5xJLKG5Zjji" slidebank="false" type="slide">facebook facebook was launched by a group of college students</slidetext>
+      <slidetext slideid="5aZNmQgKSRI.6V6f8xTdLmP" slidebank="false" type="slide">instagram instagram started as burbn in 2010 with 500,000 dollars and was sold to facebook in 2012.  </slidetext>
+      <slidetext slideid="5aZNmQgKSRI.5aMTPqg4csx" slidebank="false" type="slide">indeed indeed was founded in 2004 and used for employment</slidetext>
+      <slidetext slideid="5aZNmQgKSRI.6bU2PnijWYv" slidebank="false" type="slide">whatsapp whatsapp is a messaging app used by people in over 180 countries. </slidetext>
+      <slidetext slideid="5aZNmQgKSRI.5bbw2PXqhdk" slidebank="false" type="slide">linkedin linkedin was started in 2003 to allow professionals to become successful and make connections.</slidetext>
+      <slidetext slideid="5aZNmQgKSRI.5fdNoz4BlcS" slidebank="false" type="slide">twitter twitter became popular with president trump with “tweets”.  </slidetext>
+      <slidetext slideid="5aZNmQgKSRI.6E1dbz4FHUn" slidebank="false" type="slide">tiktok tiktok is a short-piece video-sharing application </slidetext>
+      <slidetext slideid="5aZNmQgKSRI.5VqBgigSkRk" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  sasha wonders: what social media sites might be the best for a practitioner to share health information?    linkedin linkedin linkedin whatsapp whatsapp whatsapp whatsapp indeed indeed indeed facebook facebook facebook twitter twitter twitter tiktok tiktok tiktok instagram instagram instagram  yes yes yes yes yes yes no no no no no no</slidetext>
+      <slidetext slideid="5aZNmQgKSRI.5g5iIOge69w" slidebank="false" type="slide"> sasha answers: what social media sites might be the best for a practitioner to share health information?    the correct answers are instagram, tiktok, facebook and linkedin for this social media question.  </slidetext>
+      <slidetext slideid="5ZNvQZDdMkg.66aHWoG6EIZ" slidebank="false" type="slide"> integration  </slidetext>
+      <slidetext slideid="5ZNvQZDdMkg.6or7ruOloLg" slidebank="false" type="slide">medical social media now it’s your turn to work on your social media. </slidetext>
+      <slidetext slideid="5ZNvQZDdMkg.5Wa9jwRZmdi" slidebank="false" type="slide">a project for your social media: posting medical information and positive posts about yourself. </slidetext>
+      <slidetext slideid="5ZNvQZDdMkg.6Zb1p2yfa6Z" slidebank="false" type="slide">medical social media what platform will you use?   consider your picture. add a professional image in three different posts.  your three posts should be in the different areas: you will need a screen shot copy of these for the graded quiz. (click the windows, shift, prtsc buttons)</slidetext>
+      <slidetext slideid="5ZNvQZDdMkg.5Y2nUNCBNEg" slidebank="false" type="slide">post categories   1. health tip/ information on an interesting subject. 2. medical information on a current topic in the media. 3.  your opinion on a topic that is in your area of interest. </slidetext>
+      <slidetext slideid="5ZNvQZDdMkg.5kfk5msbHnN" slidebank="false" type="slide">examples of medical social media what areas of interest do you have that could be added to your social media?  post: health tip  current topic opinion opinion of an interest area</slidetext>
+      <slidetext slideid="5ZNvQZDdMkg.62ayTtYxV6Q" slidebank="false" type="slide"> fill in the blank questions. how many minutes did it take for you to post one image and find information?__________________       how many minutes for the second post?_______________________   how many minutes for the third post?_______________________ time to post you will improve your timing on posting social media. </slidetext>
+      <slidetext slideid="5ZNvQZDdMkg.5jPLJ8c8ot3" slidebank="false" type="slide">mr. chin, your boss weighs in:  he is interested with what you are posting on your social media.   he is concerned about liability. will your job be in jeopardy for what you say? . </slidetext>
+      <slidetext slideid="5ZNvQZDdMkg.5jWIbPibHOr" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct nicely done! continue continue continue continue continue continue medical social media what is your answer to mr. chin? type your answer here:  type your answer here:  type your answer here:   submit submit submit submit submit submit </slidetext>
+      <slidetext slideid="5ZNvQZDdMkg.5XdNSCBcT1X" slidebank="false" type="slide">great  job, lets continue. </slidetext>
+      <slidetext slideid="5d83GyhivqV.5yY1tbF1l8F" slidebank="false" type="slide">  resolution </slidetext>
+      <slidetext slideid="5d83GyhivqV.5WrVEt5gXDN" slidebank="false" type="slide">  medical social media you must score 80 percent correct to pass this quiz. follow the instructions to answer the questions in the following area, there is no time limit.   the first three questions are the screen shots you took of your social media. you will fill out your name and email before starting the quiz. </slidetext>
+      <slidetext slideid="5d83GyhivqV.5dLikR5vQKk" slidebank="false" type="slide">type your name here i am frank and will help you through this quiz and explain what questions you miss. please type your name. next next next next next next next next</slidetext>
+      <slidetext slideid="5d83GyhivqV.6n9xMAvur4f" slidebank="false" type="slide">back back back back back back hello ,  please insert your emial before continuing! hello ,  please insert your emial before continuing! hello ,  please insert your emial before continuing!  enter your email address so you will have your results:  enter your email address so you will have your results:  next next next next next next type your email here</slidetext>
+      <slidetext slideid="5d83GyhivqV.6TZL7Mgwqki" slidebank="false" type="slide">you need to create three screen shots of social media. incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  true true true true true true false false false false false false submit submit submit submit submit submit 1. i did a screen-shot of a health tip. </slidetext>
+      <slidetext slideid="5d83GyhivqV.66No6Q326aN" slidebank="false" type="slide">you need to create three screen shots of social media. incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  true true true true true true false false false false false false submit submit submit submit submit submit 2. i did a screen-shot of a current topic opinion.</slidetext>
+      <slidetext slideid="5d83GyhivqV.6gFEMwdvlZk" slidebank="false" type="slide">you need to create three screen shots of social media. incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  true true true true true true false false false false false false submit submit submit submit submit submit 3. i did a screen-shot of an opinion of an interest area.</slidetext>
+      <slidetext slideid="5d83GyhivqV.5ahy4uSHw4i" slidebank="false" type="slide">you did not select the correct response which would be, the only variable that should not be checked is mothers name.  the areas that should be eliminated are name, birthdate and address. incorrect you did not select the correct response which would be, the only variable that should not be checked is mothers name.  the areas that should be eliminated are name, birthdate and address. continue continue continue continue continue continue correct that's right!  you selected the correct responses. your mothers name, admitting that someone is your mother is correct but you would not want your official name, address or birthday with year on social  media continue continue continue continue continue continue  birthdate birthdate birthdate birthdate birthdate birthdate address address address address address address mothers name mothers name mothers name mothers name mothers name mothers name submit submit submit submit submit submit 4. which of the following need to be eliminated from a social media post, there are multiple correct answers.   official name official name official name official name official name official name</slidetext>
+      <slidetext slideid="5d83GyhivqV.5rMCGsXhk22" slidebank="false" type="slide">you did not select the correct response. facebook is the most popular social media site overall.  tiktok is very popular with people in their teens and twenties.  incorrect you did not select the correct response. facebook is the most popular social media site overall.  tiktok is very popular with people in their teens and twenties.  continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  facebook facebook facebook facebook facebook facebook linkedin linkedin linkedin linkedin linkedin linkedin instagram instagram instagram instagram instagram instagram 5. which of the following is the most popular social media site?  twitter twitter twitter twitter twitter twitter submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5d83GyhivqV.5aZJTC96cUs" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  personal connection positive electronic information dangerous interactions positive online interactions 6. put the following matches together.  in-person interactions health sites and electronic medical records social media unlocked family and friends submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5d83GyhivqV.5n19viIL2Sq" slidebank="false" type="slide">include employer, application, interview, boss or admission in your answer. incorrect you did not type a correct response. continue continue continue continue continue continue correct that's right!  you types a correct response. continue continue continue continue continue continue   7. fill in the blank, there are multiple correct answers.   more and more _____________________ check their applicant's social media sites   submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5d83GyhivqV.6rPQEwDMEee" slidebank="false" type="slide">the answer was honesty. incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  private information private information private information private information private information private information beachwear beachwear beachwear beachwear beachwear beachwear alcohol consuming photos alcohol consuming photos alcohol consuming photos alcohol consuming photos alcohol consuming photos alcohol consuming photos illegal activities illegal activities illegal activities illegal activities illegal activities illegal activities 8. which of the following should be included in your social media page?  honesty honesty honesty honesty honesty honesty submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5d83GyhivqV.6eInizR8ek2" slidebank="false" type="slide">linkedin is used for employment searching. incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  linkedin linkedin linkedin linkedin linkedin linkedin facebook facebook facebook facebook facebook facebook whatsapp whatsapp whatsapp whatsapp whatsapp whatsapp 9. which of the following applications are used for employment interviews.  instagram instagram instagram instagram instagram instagram submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5d83GyhivqV.6BlwPIjDbh1" slidebank="false" type="slide">tiktok is for 20 year olds and teens, instagram was sold to facebook, whatsapp is used internationally and twitter uses tweets. 10 questions completed, push continue to receive your score.  incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  tiktok instagram whatsapp twitter 10. put the following matches together.  started in 2017 and is the fastest growing social media site sold to facebok in 2012 used in 180 different countries tweets started in 2013 submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5d83GyhivqV.6jYpjdRwxXR" slidebank="false" type="slide">the end</slidetext>
+      <slidetext slideid="5Y4Cq25YUWh.6jT69ejhJCd" slidebank="false" type="slide">  survey question 1.  what are your thoughts about social media after taking this educational session. </slidetext>
+      <slidetext slideid="5Y4Cq25YUWh.6TgcSjeeoi0" slidebank="false" type="slide"> poor learning poor learning poor learning poor learning poor learning poor learning excellent learning excellent learning excellent learning excellent learning excellent learning excellent learning good learning good learning good learning good learning good learning good learning level learning level learning level learning level learning level learning level learning less than adequate learning less than adequate learning less than adequate learning less than adequate learning less than adequate learning less than adequate learning survey question 2.  what are your thoughts about your educational learning doing this educational event. </slidetext>
+      <slidetext slideid="5Y4Cq25YUWh.5tEAwKEJ7M1" slidebank="false" type="slide"> low help low help low help low help low help low help excellent help excellent help excellent help excellent help excellent help excellent help moderate help moderate help moderate help moderate help moderate help moderate help good help good help good help good help good help good help less than moderate help less than moderate help less than moderate help less than moderate help less than moderate help less than moderate help survey question 3. what are your thoughts about your abilities on social media to get a job related to this information? </slidetext>
+      <slidetext slideid="5Y4Cq25YUWh.6U8ji0STybv" slidebank="false" type="slide">references mélanie terrasse, moti gorin, and dominic sisti, “social media, e-health, and medical ethics,” hastings center report 49, no. 1 (2019): 24-33. doi: 10.1002/hast.975 baldwin-white, a., &amp; gower, k. (2023). influence of social media on how college students perceive healthy relationships and consent. journal of american college health, 71(4), 1301–1309. https://doi-org.ezproxy.libraries.wright.edu/10.1080/07448481.2021.1927049 lua, a. buffer 21 top social media sites to consider for your brand in 2023. march 15, 2023 retrieved june 28, 2023.  https://buffer.com/library/social-media-sites/ sserunkuuma, j., kaggwa, m. m., muwanguzi, m., najjuka, s. m., murungi, n., kajjimu, j., mulungi, j., kihumuro, r. b., mamun, m. a., griffiths, m. d., &amp; ashaba, s. (2023). problematic use of the internet, smartphones, and social media among medical students and relationship with depression: an exploratory study. plos one, 17(5), 1–22. https://doi-org.ezproxy.libraries.wright.edu/10.1371/journal.pone.0286424 pros and cons of social media in healthcare (2022 guide)  the digitalis blog: cutting edge healthcare marketing written 2022, retrieved 06/30/2023   https://digitalismedical.com/blog/pros-and-cons-of-social-media-in-healthcare/#:~:text=lack%20of%20control%20from%20the,media%20feed%20shows%20these%20things  smith, olivia mdgee. social media's influence on college students linkedin february 23. 2023 retrieved june 24, 2023. wignal, allison. getting in myth: college admissions officers won’t really look at my social media pages. college raptor. december 22, 2022 retrieved june 27, 2023. https://www.collegeraptor.com/getting-in/articles/myths/myth-college-admissions-officers-wont-really-look-social-media-pages/ mcadams, katelyn. 6 reasons you should clean up your social media pages before college. college raptor last updated on december 22, 2022 retrieved june 22, 2023 https://www.collegeraptor.com/find-colleges/articles/tips-tools-advice/6-reasons-clean-social-media-pages-college/</slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#464646'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="https://pubmed.ncbi.nlm.nih.gov/34133910/" image="story_content/url.png" title="Baldwin-White, A., &amp;amp; Gower, K. (2023). Influence of social media on how college students perceive healthy relationships and consent. Journal of American College Health, 71(4), 1301–1309. " />
+      <resource url="https://buffer.com/library/social-media-sites/ " image="story_content/url.png" title="Lua, A. Buffer 21 Top Social Media Sites to Consider for Your Brand in 2023. March 15, 2023 retrieved June 28, 2023.  " />
+      <resource url="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10218731/" image="story_content/url.png" title="Sserunkuuma, J., Kaggwa, M. M., Muwanguzi, M., Najjuka, S. M., Murungi, N., Kajjimu, J., Mulungi, J., Kihumuro, R. B., Mamun, M. A., Griffiths, M. D., &amp;amp; Ashaba, S. (2023). Problematic use of the internet, smartphones, and social media among medical students and relationship with depression: An exploratory study. PLoS ONE, 17(5), 1–22. " />
+      <resource url="https://digitalismedical.com/blog/pros-and-cons-of-social-media-in-healthcare/#:~:text=Lack%20of%20Control%20from%20the,media%20feed%20shows%20these%20things " image="story_content/url.png" title="Pros and Cons of Social Media in Healthcare (2022 Guide)  THE DIGITALIS BLOG: CUTTING EDGE HEALTHCARE MARKETING Written 2022, retrieved 06/30/2023.   " />
+      <resource url="https://www.collegeraptor.com/getting-in/articles/myths/myth-college-admissions-officers-wont-really-look-social-media-pages/" image="story_content/url.png" title="Wignal, Allison. Getting In Myth: College Admissions Officers Won’t Really Look at my Social Media Pages. College Raptor. December 22, 2022 retrieved June 27, 2023. " />
+      <resource url="https://www.collegeraptor.com/find-colleges/articles/tips-tools-advice/6-reasons-clean-social-media-pages-college/" image="story_content/url.png" title="McAdams, Katelyn. 6 Reasons You Should Clean Up Your Social Media Pages BEFORE College. College Raptor Last updated on December 22, 2022 retrieved June 22, 2023 " />
+      <resource url="https://blog.hootsuite.com/types-of-social-media/" image="story_content/url.png" title="Wong, Laura. 9 Types of Social Media and How Each Can Benefit Your Business. Hootsuite. September 2, 2021 retrieved July 2, 2023. " />
+    </resources>
+  </resource_data>
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="6qRp0oFSt3f.6UfPZsppI5m" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Welcome to Medical Social Media with Marilyn Kindig Stahl. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6qRp0oFSt3f.6mdqtSxGGU7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Social media are interactive technologies that facilitate the creation and sharing of information, ideas, interests, and other forms of expression through virtual communities and networking."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6qRp0oFSt3f.6mkNKRWFP42" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Social media in our world is important and can make or break your application, future job and career in the medical field (Terasse, 2019)."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6qRp0oFSt3f.5wE5hrbtKND" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="This informative exhibition will discuss why social media presence is important, what not to do on social media, and what is appropriate to do on social media. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6qRp0oFSt3f.6JLrKGxwh4s" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Social media is a bioethics issue that has serious implications for medical practice, research, and public health. Online information is being researched on what is helpful to your career and also what can hurt your online and in-person presence (McAdams, 2022). "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6qRp0oFSt3f.5Uo1QShZzhO" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="If you are working towards a professional medical degree and think you are immune to other’s thoughts about social media, you are mistaken (Terasse, 2019). Sasha will join us today as we work through this information.  Slide the bar below to show where your knowledge lies about medical social media. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6qRp0oFSt3f.6IHcCcArkmK" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Objectives for this course:&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="By the end of this educational course, the participants will:&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Interpret the reasons a personal social media presence is important for your career.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Integrate the acquired knowledge into their personal and professional online presence.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Moderate their professional online presence in the future for your medical practice."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6CSyl5OSEbV.6NaZLdGpt9g" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Your online presence can make or break your future career and professional practice opportunities. How would you like yourself to appear to others as a professional? &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6CSyl5OSEbV.61BFxDezUBB" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Would your mother/priest/employer appreciate your posts in the future? Would a future patient come to see you as their care provider?&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6CSyl5OSEbV.6C9Cu2Y4zZF" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Online profiles are more important as social media becomes a mainstay of our computer world. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6CSyl5OSEbV.6Kb7yPelDw0" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Hello, it’s nice to meet you, click on me to continue the course. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6CSyl5OSEbV.5VI91ztZYVM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Sasha will ask questions and help with the explanations of these learning points.  In the final section, the quiz questions will be moderated by Frank. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6CSyl5OSEbV.6h3bi1sJ2Cu" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="What might be inappropriate in your social media which acts like your resume for your medical future? Will a college admissions committee and employer be happy with your posts?"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6CSyl5OSEbV.6BwUaZFrig3" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Take a deep breath, close your door and silence your phone. Let’s get started!"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.6YYui4c4T6g" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Do you have social media posts that you would consider inappropriate? None or Many?  Click on the appropriate answer then click submit. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.6dcHFWi1byX" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Lets discuss what is appropriate and not recommended on social media. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.68PYNDBhA8Z" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Positive social media post thoughts. Visit every state before moving on in this activity." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.6HBwRM3oS0U" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Did you have items in your social media posts you now consider not appropriate for medical social media?" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.5pRzs1Ns72I" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="What will you do to fix those posts?  You could remove them or edit them.  Then continue this course. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.5Y3lceMBSDT" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Excellent!.  Continue the course!" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.5oQvdFmA0o7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Now, lets explore the different sides of Social Media" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.6MglUFZyUy0" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="There are four areas at the intersection of social media and health: research, public health information, patient-doctor relationship and using computer for electronic health records.  "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.6ftZkVDOxlq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="We need to emphasize the need for bioethics to focus more deeply on the ways online technology platforms are designed and implemented (Terrasse, 2019).   " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.6SxFRCZyvBq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Social media can be positive, allow you to see what family and friends are doing, help you feel connected to others and your world (Digitalis, 2022).&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.6PVixy2HWXM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Social Media can also be dangerous, allowing criminals and trolls to find out information about you, even if your profiles are private (Baldwin, 2022)."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.6hG90gixLPl" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="While our world has almost forced us to work online, we have to remember to do things in-person and have contact with people outside of the internet (Digitalis, 2022)."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.5fwy3jRp9DM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="26">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="“Which of the following answers are positives of online interactions”?  There are multiple answers. Hit Submit when you are finished. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.6NlfuW4PXNo" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="27">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="All of the above, except sharing your vacation photos during your vacation.  This would show others you are not home and leave your home open to intruders.  Sharing pictures of family with children’s names could be dangerous. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="an be correct except specific ways the information is used.  Family history and public health information for eduction is a great way to use the internet.  If your electronic health records are password protected, that is also appropriate.  Be cautions about sharing your vacation photos or pictures of family that could be used against you in some manner, identity theft or someone knowing you are not home."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.5Z4oCSrjcao" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="28">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="There is a Comprehensive Social Networking Report that reveals all social network accounts attached to an individual’s email address that they have ever used on any platform the available information includes their profile about their families, employment, education and other information with properties, court records and criminal records available to any employer or person who wants information about a person (Spokeo, 2023)."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.66XItovHL5K" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="29">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A survey of admissions counselors in 2008 said 40% of them regularly checked their applicant social media sites and in 2016 it was four times as many. All this information is to let you know to beware of what you post, as it could affect your future (Wignal, 2022)."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.60k18knmgwz" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="30">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Social medica can affect the provider-patient relationship.  Social Media does influence our lives in 2023 and changing the ways we communicate and think about behavior, health, health research: "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.65bfvShXPDX" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="31">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Influences include social networking, the development of e-health, using online data for research, and widespread social media. Information on bioethics in  is being analyzed (Digitalis, 2023). "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.6dlKj3ddxw0" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="32">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Professionals who use social media and e-health platforms for their system design play and important role in the standard of conduct, appropriate words and information that is posted online (Digitalis, 2022). "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.6SD5LRnllmh" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="33">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Online material and blogs published by patients can provide valuable information to practitioners.  Bioethicists are evaluating this information to see the ethics behind using information in medical practice. What about the ethics of seeing patients online information without the patient knowing (Terrasse, 2019)?"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.6ra3X3RFA6x" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="34">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A practitioner could post a medical case without using names. A patient could then realize the practitioner is using them or someone they know or a negative post could adversely influence a relationship. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.6qEAqGV42fY" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="35">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Conversely, a practitioner’s post could humanize them in a patient’s viewpoint.  Imagine sharing about your own medical problem with cancer or your personal worry about a sick family member. This could help your patients see you as a caring practitioner. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.5nFi8GvIPQU" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="36">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Consider the following:  You are starting a family medicine practice in Iowa. Which social media sites might help a practitioner get patients to show interest in their practice and possibly become a patient? Drag and drop the platform name to Yes or No buttons. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69O6Hdbw3GE.6Pba645RUdq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="37">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The answers are, using Facebook and Instagram will help you the most.  "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5aZNmQgKSRI.6X58kqchw6O" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="38">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Exploring Social Media Platforms for Professional Medical Use. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5aZNmQgKSRI.6Z3GYn5OKrE" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="39">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Many social media platforms are available, but some are used more professionally seen than others (Lua, 2023, Wong, 2022)."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5aZNmQgKSRI.5xJLKG5Zjji" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="40">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Facebook was launched by a group of college students including Mark Zuckerberg in 2004 at Harvard.  The millionth user was sign up in 2005 and their operating budget is based on digital advertising.  This platform uses instant messenger and is connected to a wide variety of other platforms but is generally not used professionally. Facebook is the most popular social media platform in 2023."&gt;
+        &lt;Style FontFamily="Lato" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="#FFFFFF" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="#FFFFFF"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5aZNmQgKSRI.6V6f8xTdLmP" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="41">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Instagram started as Burbn in 2010 with 500,000 dollars and was sold to Facebook in 2012.  Although independently managed, a sister company Whatsapp that is used internationally is also owned by Meta.  Uploading information, cowatching videos and posting pictures are some of the ways to use these social media sites. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5aZNmQgKSRI.5aMTPqg4csx" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="42">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Indeed was founded in 2004 by Paul Forster and Rony Kahan. This is overall a job site and over 66% of interviews for positions come from Indeed. This site is the most overall used site for all jobs. But Linked in is the best place to look for a professional job. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5aZNmQgKSRI.6bU2PnijWYv" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="43">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="WhatsApp is a messaging app used by people in over 180 countries. Initially, people used WhatsApp to send text messages but people gradually started to use it communicate with businesses.  This business platform allows businesses to provide customer support and share updates with customers. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5aZNmQgKSRI.5bbw2PXqhdk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="44">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Linked in was started in 2003 to allow professionals the ability to connect and become successful.  Millennials and business professionals make up the most users on this platform. A social media site via Linked in is appropriate social media platform in 2023 as you work through your degree and want to make connections. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5aZNmQgKSRI.5fdNoz4BlcS" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="45">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Twitter became popular with President Trump with his “Tweets”.  It started by Noah Glass in 2013, where he found a product that would turn a phone message into an MP3 hosted on the internet. That technology was initially Odeo and working on podcasting music, but then transferred into “status updates”. In 2023, Twitter is forecasted to lose 6% of it’s users, it is not on the forefront of social media as in the past. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5aZNmQgKSRI.6E1dbz4FHUn" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="46">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="TikTok is a short-piece video-sharing app. Despite only launching in 2017, it’s one of the fastest-growing apps in the world and recently overtook Google as the most visited internet site. TikTok allows users to create and share videos  with filters where users will do lip-syncs, dancing, and challenges with make-up tutorials. About forty seven percent of TikTok users in the U.S. are under age 30. So if your target demographic is the younger crowd, then TikTok is a great platform for your business to be on."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5aZNmQgKSRI.5VqBgigSkRk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="47">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Which social media sites might help a practitioner in the United States get patients to show interest in their practice and possibly become a patient? Drag and drop to the correct answer."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5aZNmQgKSRI.5g5iIOge69w" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="48">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Which social media sites might help a practitioner get patients to show interest in their practice and possibly become a patient? Instagram and Linkedin are the answers to this question. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5ZNvQZDdMkg.66aHWoG6EIZ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="49">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Integration" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5ZNvQZDdMkg.6or7ruOloLg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="50">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Now it’s your turn to work on your social media platform. Consider what would be good categories for you to post about on social media given your interests? "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5ZNvQZDdMkg.5Wa9jwRZmdi" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="51">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Sasha says, “Please look at the directions and make three social media posts that you are free to delete or actually not post on social media if you wish.  These three posts will educate and inform and I ask that you time yourself, seeing how long each post takes.  Follow the previous information, not using personal information or inappropriate pictures.  Positive posts that will allow others to see you in a good light.  Please screen shot all your posts and add to your reply email for this lesson.  Warning: Your immediate supervisor will see your social media posts as part of this exercise module.  "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="with you”. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5ZNvQZDdMkg.6Zb1p2yfa6Z" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="52">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="For your personal Medical Social Media platform, consider how best to set up your information.  Consider your picture.  Add three different social media posts."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5ZNvQZDdMkg.5Y2nUNCBNEg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="53">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="For the final test, you will need a screenshot of the information you are posting, so make sure you print your screen or do a clip of the information.  Consider the following three areas to post on your social media site:  Post a health tip or information on a subject that is interesting to you.  Then post something medical about a current topic in the media with your opinion.  Post your opinion about a topic of interest to you or something that will help humanize yourself to others.  "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5ZNvQZDdMkg.5kfk5msbHnN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="54">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=" Post a health tip or information on a subject that is interesting to you.  Then post something medical about a current topic in the media with your opinion.  Post your opinion about a topic of interest to you or something that will help humanize yourself to others.  &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5ZNvQZDdMkg.62ayTtYxV6Q" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="55">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You should decrease the amount of time it takes to post on social media as you post more often.  Many physicians use social media appropriately to educate their patients, keep up with news items and clarify their feelings about issues.  Be warned about being demanding or testing your friends patience.  If you stay more visual, it is a good way to promote your practice.  Be sure to follow the rules of your managing workplace. It most likely took you less time for each post going forward. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5ZNvQZDdMkg.5jPLJ8c8ot3" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="56">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Mr Chin states, “I saw your social media post and I would like to ask you about any connection to your work or this company.  I do not want the company to be liable for anything you say on your own site”. It is important that you are careful and not put your job at risk based on what you say on social media."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5ZNvQZDdMkg.5jWIbPibHOr" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="57">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Type your answer on what you would say when your boss pushes you about your social media posts.  Do you think they are appropriate?&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=" "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5d83GyhivqV.5WrVEt5gXDN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="58">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=" “Your score must be 80 percent or higher to pass this social media quiz on the following 8 questions and post three screen-shots from your social media.  Follow the instructions to answer the questions. No worries, if you aren’t at 80 percent, I have a plan to get you through this.  I hope you feel you learned something from this information, and good luck on the quiz”."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="lt1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5d83GyhivqV.5dLikR5vQKk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="59">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Hello, I am Frank, Please type your name and hit next." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5d83GyhivqV.6n9xMAvur4f" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="60">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Next, add your email address and hit next. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5d83GyhivqV.6TZL7Mgwqki" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="61">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="I did a screen-shot of a health tip. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5d83GyhivqV.66No6Q326aN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="62">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="2. I did a screen-shot of a current topic opinion." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5d83GyhivqV.6gFEMwdvlZk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="63">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="3. I did a screen-shot of an opinion of an interest area." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5d83GyhivqV.5ahy4uSHw4i" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="64">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Question 4, Which of the following need to be eliminated from a social media post, there are multiple correct answers.  " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5d83GyhivqV.5rMCGsXhk22" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="65">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="5. Which of the following is the most popular social media site? " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5d83GyhivqV.5aZJTC96cUs" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="66">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="6. Put the following matches together. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5d83GyhivqV.5n19viIL2Sq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="67">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="7. Fill in the blank, there are multiple correct answers.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=" &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="More and more blank check their applicant's social media sites ." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5d83GyhivqV.6rPQEwDMEee" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="68">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="8. Which of the following should be included in your social media page? " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5d83GyhivqV.6eInizR8ek2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="69">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="9. Which of the following applications are used for employment interviews. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5d83GyhivqV.6BlwPIjDbh1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="70">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="10. Put the following matches together. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5d83GyhivqV.6HNuzyjaQ5h" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="71">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Your results are above.  Please print your results and email them to your administrator along with screen-shots of your three posts.  " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5d83GyhivqV.6jYpjdRwxXR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="72">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Please take the next three survey questions about this educational information. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5Y4Cq25YUWh.6jT69ejhJCd" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="73">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Survey Question 1. &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="What are your thoughts about social media after taking this educational session. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5Y4Cq25YUWh.6TgcSjeeoi0" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="74">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="What are your thoughts about your educational learning doing this educational event. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5Y4Cq25YUWh.5tEAwKEJ7M1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="75">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="What are your thoughts about your abilities on social media to get a job related to this information? " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5Y4Cq25YUWh.6U8ji0STybv" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="76">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="References for this  module are as above  The End. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data />
+</bwFrame>
